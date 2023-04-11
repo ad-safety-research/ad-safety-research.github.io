@@ -162,21 +162,21 @@ body{
     font-family:FontAwesome
 }
 .contact__card-item.place{
-    padding-left:15px;
+    padding-left:10px;
     margin-bottom:15px;
     text-align:left
 }
 .contact__card-item.place:before{
-    margin-left:20px;
+    margin-left:25px;
     content:"\f041"
 }
 .contact__card-item.tel{
-    padding-left:20px;
+    padding-left:10px;
     margin-bottom:10px;
     text-align:left
 }
 .contact__card-item.tel:before{
-    margin-left:20px;
+    margin-left:25px;
     content:"\f098"
 }
 .contact__card-item.fax:before{
