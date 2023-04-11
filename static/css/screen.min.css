@@ -162,7 +162,7 @@ body{
     font-family:FontAwesome
 }
 .contact__card-item.place{
-    padding-left:10px;
+/*     padding-left:10px; */
     margin-bottom:15px;
     text-align:left
 }
@@ -171,8 +171,8 @@ body{
     content:"\f041"
 }
 .contact__card-item.tel{
-    padding-left:10px;
-    margin-bottom:10px;
+/*     padding-left:10px; */
+    margin-bottom:15px;
     text-align:left
 }
 .contact__card-item.tel:before{
