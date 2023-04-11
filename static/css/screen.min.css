@@ -163,16 +163,20 @@ body{
 }
 .contact__card-item.place{
     padding-left:15px;
-    margin-bottom:15px
+    margin-bottom:15px;
+    text-align:left
 }
 .contact__card-item.place:before{
+    margin-left:20px;
     content:"\f041"
 }
 .contact__card-item.tel{
-    padding-left:17px;
-    margin-bottom:10px
+    padding-left:20px;
+    margin-bottom:10px;
+    text-align:left
 }
 .contact__card-item.tel:before{
+    margin-left:20px;
     content:"\f098"
 }
 .contact__card-item.fax:before{
