@@ -190,6 +190,7 @@ body{
     color:#444
 }
 .contact__card-item.email:before{
+    padding-left:38px;
     content:"\f003"
 }
 .contact__card-item.email:hover{
