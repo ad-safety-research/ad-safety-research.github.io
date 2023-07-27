@@ -336,7 +336,7 @@ body{
 .padded-boxes .padded {
     padding:.1rem 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 /* tablet breakpoint */
 @media (min-width:768px) {
