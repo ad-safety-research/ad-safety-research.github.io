@@ -312,6 +312,37 @@ body{
     content:"\f077";
     color:#fff
 }
+/* container */
+.padded-boxes {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+/* boxes */
+.padded-boxes > * {
+    width:100%;
+    background:#eee;
+    border-radius:.4rem;
+}
+/* headings */
+.padded-boxes .heading {
+    background:#f97171;
+    margin:0;
+    padding:1rem;
+    border-top-left-radius:.4rem;
+    border-top-right-radius:.4rem;
+}
+/* padded content */
+.padded-boxes .padded {
+    padding:.1rem 1rem;
+}
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .padded-boxes > * {
+        width:calc((100% - 4rem) / 3);
+    }
+}
+
 .portfolio{
     width:100%;
     min-height:680px;
