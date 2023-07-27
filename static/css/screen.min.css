@@ -339,7 +339,7 @@ body{
 /* tablet breakpoint */
 @media (min-width:768px) {
     .padded-boxes > * {
-        width:calc((100% - 4rem) / 2);
+        width:calc((100% - 2rem) / 2);
     }
 }
 
