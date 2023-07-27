@@ -337,6 +337,7 @@ body{
     padding:.1rem 1rem;
     display: flex;
     justify-content: space-between;
+    text-align:justify;
 }
 /* tablet breakpoint */
 @media (min-width:768px) {
