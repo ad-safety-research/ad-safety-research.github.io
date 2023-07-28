@@ -338,6 +338,7 @@ body{
     display: flex;
     justify-content: space-between;
     text-align:justify;
+    padding-bottom: 1em;
 }
 /* tablet breakpoint */
 @media (min-width:768px) {
@@ -370,6 +371,7 @@ body{
 .padded-boxes-main .padded {
     padding:.1rem 1rem;
     text-align:left;
+    padding-bottom: 1em;
 }
 /* tablet breakpoint */
 @media (min-width:768px) {
