@@ -346,6 +346,38 @@ body{
     }
 }
 
+/* container */
+.padded-boxes-main {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+/* boxes */
+.padded-boxes-main > * {
+    width:100%;
+    background:#eee;
+    border-radius:.4rem;
+}
+/* headings */
+.padded-boxes-main .heading {
+    background:#1BBC9B;
+    margin:0;
+    padding:1rem;
+    border-top-left-radius:.4rem;
+    border-top-right-radius:.4rem;
+}
+/* padded content */
+.padded-boxes-main .padded {
+    padding:.1rem 1rem;
+    text-align:left;
+}
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .padded-boxes-main > * {
+        width:100%;
+    }
+}
+
 .portfolio{
     width:100%;
     min-height:680px;
