@@ -232,7 +232,7 @@ body{
     height:50px;
     margin:25px 0 0 40px;
     padding:5px 0 0 65px;
-    background:url('../images/promo_bg.jpg') 0 center no-repeat
+    background:url("../images/logo.jpg") 0 center no-repeat
 }
 .page-header__logo h1{
     font-size:20px;
@@ -496,7 +496,7 @@ body{
     width:100%;
     min-height:455px;
     padding:70px 0;
-    background:url(../images/promo-bg.jpg) center 0 no-repeat;
+    background:url("../images/promo_bg.jpg") 0 center no-repeat
     background-attachment:fixed;
     -webkit-background-size:cover;
     background-size:cover;
